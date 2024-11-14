@@ -5,6 +5,7 @@
     flex-direction: column;
     justify-content: space-between;
 }
+
 .newChat {
     display: flex;
     justify-content: space-between;
@@ -26,6 +27,7 @@
 .newChat div img{
     border-radius: 50%;
 }
+
 .newChat svg {
     width: 30px;
     height: 30px;

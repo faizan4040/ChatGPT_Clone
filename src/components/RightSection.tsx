@@ -127,7 +127,7 @@ const RightSection = () => {
         setIsSent(true)
         // console.log(resjson.candidates[0].content.parts[0].text)
 
-        let responseMessage = resjson.candidates[0].content.parts[0].text
+        let responseMessage = resjson.candidates?.[0]?.content?.parts?.[0]?.text || "No response available";
 
         let newAllMessages = [
             ...allMessages,
